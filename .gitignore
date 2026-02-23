@@ -1,0 +1,37 @@
+# Terraform関連
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+*.tfvars
+!terraform.tfvars.example
+
+# クラッシュログ
+crash.log
+crash.*.log
+
+# CLIの設定ファイル（機密情報が含まれる可能性がある）
+.terraformrc
+terraform.rc
+
+# バックアップファイル
+*.backup
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+
+# macOS
+.DS_Store
+
+# エディタ
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+docs/
+docs/*

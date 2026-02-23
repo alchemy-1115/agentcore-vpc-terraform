@@ -1,0 +1,12 @@
+# このファイルをコピーして terraform.tfvars を作成し、必要に応じて値を変更してください
+# terraform.tfvars は .gitignore に含まれています
+
+aws_region   = "ap-northeast-1"
+project_name = "agentcore-vpc"
+environment  = "dev"
+vpc_cidr     = "10.0.0.0/16"
+
+# AgentCore Runtime設定
+ecr_repository_name = "agentcore-vpc-agent"
+agent_runtime_name  = "agentcore_vpc_agent"
+container_image_tag = "latest"
