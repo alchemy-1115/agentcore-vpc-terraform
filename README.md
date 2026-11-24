@@ -11,7 +11,7 @@
 ## 前提条件
 
 - Terraform 1.0以上
-- AWS CLI設定済み（`aws sso login`コマンドで認証）
+- AWS CLI設定済み（`aws configure sso` で default プロファイルに IAM Identity Center を設定し、`aws sso login` で認証）
 - 適切なIAM権限
 
 ## アーキテクチャ
